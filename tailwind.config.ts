@@ -20,11 +20,36 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				'serif-vintage': ['Playfair Display', 'Georgia', 'serif'],
+				'serif-vintage': ['EB Garamond', 'Georgia', 'serif'],
 				'modern': ['Inter', 'sans-serif'],
 				'mono': ['JetBrains Mono', 'monospace'],
 			},
 			colors: {
+				// Custom beige and neutral palette
+				'cream': {
+					50: '#fefdfb',
+					100: '#fdf9f3',
+					200: '#f9f0e3',
+					300: '#f4e6d1',
+					400: '#ead5b3',
+					500: '#d4b896',
+					600: '#c09876',
+					700: '#a17c5e',
+					800: '#8b6f52',
+					900: '#765f46',
+				},
+				'warm-gray': {
+					50: '#fafaf9',
+					100: '#f5f5f4',
+					200: '#e7e5e4',
+					300: '#d6d3d1',
+					400: '#a8a29e',
+					500: '#78716c',
+					600: '#57534e',
+					700: '#44403c',
+					800: '#292524',
+					900: '#1c1917',
+				},
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
