@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -23,6 +22,7 @@ export default {
 				'serif-vintage': ['EB Garamond', 'Georgia', 'serif'],
 				'modern': ['Inter', 'sans-serif'],
 				'mono': ['JetBrains Mono', 'monospace'],
+				'geist-mono': ['Geist Mono', 'monospace'],
 			},
 			colors: {
 				// Custom beige and neutral palette
