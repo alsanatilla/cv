@@ -78,8 +78,8 @@ const Index = () => {
               <p className="text-stone-700 font-geist-mono font-normal leading-relaxed text-sm" style={{
               fontOpticalSizing: 'auto'
             }}>
-                Developed and maintained web applications using modern JavaScript frameworks. 
-                Implemented responsive designs and optimized application performance.
+                Developed and maintained web applications for B2B processes including Odoo and Microsoft Dynamics AX. 
+                Led projects digitalizing internal company processes and implemented responsive designs while optimizing application performance.
               </p>
             </div>
           </div>
