@@ -1,3 +1,4 @@
+
 import { Mail, Phone, MapPin, Github, Linkedin } from "lucide-react";
 const Index = () => {
   return <div className="min-h-screen bg-white py-20 px-8">
@@ -114,7 +115,7 @@ const Index = () => {
                 fontOpticalSizing: 'auto'
               }}>Frontend</h4>
                 <div className="text-stone-600 font-mono text-sm leading-relaxed">
-                  React / TypeScript / Tailwind CSS / Next.js
+                  React / JavaScript / HTML / CSS
                 </div>
               </div>
               
@@ -123,7 +124,25 @@ const Index = () => {
                 fontOpticalSizing: 'auto'
               }}>Backend</h4>
                 <div className="text-stone-600 font-mono text-sm leading-relaxed">
-                  Node.js / Python / PostgreSQL / MongoDB
+                  .NET / C# / API Development / File Systems
+                </div>
+              </div>
+
+              <div>
+                <h4 className="font-serif-vintage text-stone-800 mb-3 font-medium" style={{
+                fontOpticalSizing: 'auto'
+              }}>Microsoft Ecosystem</h4>
+                <div className="text-stone-600 font-mono text-sm leading-relaxed">
+                  Power Platform / SharePoint / M365 / Dynamics AX
+                </div>
+              </div>
+
+              <div>
+                <h4 className="font-serif-vintage text-stone-800 mb-3 font-medium" style={{
+                fontOpticalSizing: 'auto'
+              }}>Business Applications</h4>
+                <div className="text-stone-600 font-mono text-sm leading-relaxed">
+                  Odoo / ERP Systems / B2B Processes
                 </div>
               </div>
             </div>
