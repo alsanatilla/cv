@@ -142,8 +142,8 @@ const Index = () => {
               <div>
                 <h3 className="font-serif-vintage font-medium text-stone-800" style={{
                 fontOpticalSizing: 'auto'
-              }}>BS Computer Science</h3>
-                <p className="text-stone-600 text-sm font-mono italic">UC Berkeley, 2015 — 2019</p>
+              }}>BS Health Informatics</h3>
+                <p className="text-stone-600 text-sm font-mono italic">THD Deggendorf, 2020 - 2023</p>
               </div>
             </div>
           </div>
