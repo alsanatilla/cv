@@ -55,7 +55,7 @@ const Index = () => {
               }}>Senior Software Developer</h3>
                 <span className="text-sm font-mono text-stone-500">2024 — Present</span>
               </div>
-              <p className="text-stone-600 text-sm font-mono mb-6 italic">Tech Solutions Inc.</p>
+              <p className="text-stone-600 text-sm font-mono mb-6 italic">Gabo mbH</p>
               <p className="text-stone-700 font-geist-mono font-normal leading-relaxed text-sm" style={{
               fontOpticalSizing: 'auto'
             }}>
