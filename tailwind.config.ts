@@ -20,7 +20,7 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				'mono-vintage': ['Space Mono', 'JetBrains Mono', 'monospace'],
+				'serif-vintage': ['Playfair Display', 'Georgia', 'serif'],
 				'modern': ['Inter', 'sans-serif'],
 				'mono': ['JetBrains Mono', 'monospace'],
 			},

@@ -12,7 +12,7 @@ const Index = () => {
           <CardHeader className="text-center pb-4">
             <div className="flex items-center justify-center gap-2 mb-4">
               <Terminal size={24} className="text-green-400" />
-              <CardTitle className="text-4xl font-mono-vintage text-green-400 tracking-wider">
+              <CardTitle className="text-4xl font-serif-vintage text-green-400 tracking-wider">
                 JOHN.DOE
               </CardTitle>
               <Code2 size={24} className="text-green-400" />
@@ -47,17 +47,17 @@ const Index = () => {
             {/* About Section */}
             <Card className="bg-gray-900 border-green-800">
               <CardHeader className="pb-3">
-                <CardTitle className="text-lg font-mono-vintage text-green-400 tracking-wider">
+                <CardTitle className="text-lg font-serif-vintage text-green-400 tracking-wider">
                   $ cat about.txt
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-green-300 leading-relaxed font-modern font-light">
-                  > Passionate software developer with 5+ years of experience building scalable web applications.
+                  {`> Passionate software developer with 5+ years of experience building scalable web applications.`}
                   <br />
-                  > Specialized in React, TypeScript, and modern web technologies.
+                  {`> Specialized in React, TypeScript, and modern web technologies.`}
                   <br />
-                  > Strong advocate for clean code and user-centered design.
+                  {`> Strong advocate for clean code and user-centered design.`}
                 </p>
               </CardContent>
             </Card>
@@ -65,7 +65,7 @@ const Index = () => {
             {/* Experience Section */}
             <Card className="bg-gray-900 border-green-800">
               <CardHeader className="pb-3">
-                <CardTitle className="text-lg font-mono-vintage text-green-400 tracking-wider">
+                <CardTitle className="text-lg font-serif-vintage text-green-400 tracking-wider">
                   $ ls -la experience/
                 </CardTitle>
               </CardHeader>
@@ -115,7 +115,7 @@ const Index = () => {
             {/* Education Section */}
             <Card className="bg-gray-900 border-green-800">
               <CardHeader className="pb-3">
-                <CardTitle className="text-lg font-mono-vintage text-green-400 tracking-wider">
+                <CardTitle className="text-lg font-serif-vintage text-green-400 tracking-wider">
                   $ cat education.log
                 </CardTitle>
               </CardHeader>
@@ -136,7 +136,7 @@ const Index = () => {
             {/* Skills Section */}
             <Card className="bg-gray-900 border-green-800">
               <CardHeader className="pb-3">
-                <CardTitle className="text-lg font-mono-vintage text-green-400 tracking-wider">
+                <CardTitle className="text-lg font-serif-vintage text-green-400 tracking-wider">
                   $ ./skills.sh
                 </CardTitle>
               </CardHeader>
@@ -181,7 +181,7 @@ const Index = () => {
             {/* Links Section */}
             <Card className="bg-gray-900 border-green-800">
               <CardHeader className="pb-3">
-                <CardTitle className="text-lg font-mono-vintage text-green-400 tracking-wider">
+                <CardTitle className="text-lg font-serif-vintage text-green-400 tracking-wider">
                   $ cat links.txt
                 </CardTitle>
               </CardHeader>
@@ -204,7 +204,7 @@ const Index = () => {
             {/* Languages Section */}
             <Card className="bg-gray-900 border-green-800">
               <CardHeader className="pb-3">
-                <CardTitle className="text-lg font-mono-vintage text-green-400 tracking-wider">
+                <CardTitle className="text-lg font-serif-vintage text-green-400 tracking-wider">
                   $ locale -a
                 </CardTitle>
               </CardHeader>
