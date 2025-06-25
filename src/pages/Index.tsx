@@ -1,3 +1,4 @@
+
 import { Mail, Phone, MapPin, Github, Linkedin } from "lucide-react";
 const Index = () => {
   return <div className="min-h-screen bg-white py-20 px-8">
@@ -59,8 +60,8 @@ const Index = () => {
               <p className="text-stone-700 font-geist-mono font-normal leading-relaxed text-sm" style={{
               fontOpticalSizing: 'auto'
             }}>
-                Led development of customer-facing web applications using React and TypeScript. 
-                Collaborated with cross-functional teams to deliver high-quality software solutions.
+                IT consultant specializing in Power Platform for IT consulting company. 
+                Developed custom business solutions using Power Apps, Power Automate, and Power BI.
               </p>
             </div>
             
