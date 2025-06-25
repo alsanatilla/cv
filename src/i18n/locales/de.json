@@ -1,0 +1,48 @@
+
+{
+  "name": "Atilla Alsan",
+  "title": "Senior Software-Entwickler",
+  "contact": {
+    "email": "alsan.atilla[at]icloud.com",
+    "phone": "+49 173 971 9062",
+    "location": "München, Bayern"
+  },
+  "sections": {
+    "about": "Über mich",
+    "experience": "Berufserfahrung",
+    "skills": "Fähigkeiten",
+    "links": "Links",
+    "education": "Bildung"
+  },
+  "about_text": "Leidenschaftlicher Software-Entwickler mit über 3 Jahren Erfahrung in der Entwicklung digitaler Anwendungen. Spezialisiert auf das Microsoft-Ökosystem einschließlich M365 (SharePoint, PowerPlatform) und moderne Web-Technologien.",
+  "experience": {
+    "senior_developer": {
+      "title": "Senior Software-Entwickler",
+      "company": "Gabo mbH",
+      "period": "2024 — Heute",
+      "description": "IT-Berater mit Spezialisierung auf Power Platform für IT-Beratungsunternehmen. Entwicklung maßgeschneiderter Geschäftslösungen mit Power Apps, Power Automate und Power BI. Integration von Drittanbieter-APIs und Erstellung benutzerdefinierter Konnektoren zur Verbesserung der Plattformfähigkeiten und Optimierung von Geschäftsprozessen."
+    },
+    "developer": {
+      "title": "Software-Entwickler",
+      "company": "Digital Innovations",
+      "period": "2023 — 2024",
+      "description": "Entwicklung und Wartung von Webanwendungen für B2B-Prozesse einschließlich Odoo und Microsoft Dynamics AX. Leitung von Projekten zur Digitalisierung interner Unternehmensprozesse und Implementierung responsiver Designs bei gleichzeitiger Optimierung der Anwendungsleistung."
+    },
+    "intern": {
+      "title": "Software-Entwicklungs-Praktikant",
+      "company": "UKR Regensburg",
+      "period": "6 Monate",
+      "description": "Entwicklung von Backend/API für Datei-Upload-Service mit .NET Framework. Implementierung sicherer Dateiverarbeitung und Speicherlösungen bei gleichzeitiger Gewährleistung optimaler Leistung und Zuverlässigkeit."
+    }
+  },
+  "skills": {
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "microsoft": "Microsoft-Ökosystem",
+    "business": "Geschäftsanwendungen"
+  },
+  "education": {
+    "degree": "Bachelor Gesundheitsinformatik",
+    "school": "THD Deggendorf, 2020 - 2023"
+  }
+}
