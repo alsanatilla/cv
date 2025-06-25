@@ -1,4 +1,3 @@
-
 import { Mail, Phone, MapPin, Github, Linkedin } from "lucide-react";
 const Index = () => {
   return <div className="min-h-screen bg-white py-20 px-8">
@@ -87,7 +86,7 @@ const Index = () => {
                 <h3 className="font-serif-vintage font-medium text-stone-800 text-lg" style={{
                 fontOpticalSizing: 'auto'
               }}>Software Development Intern</h3>
-                <span className="text-sm font-mono text-stone-500">2022 — 2023</span>
+                <span className="text-sm font-mono text-stone-500">6 Months</span>
               </div>
               <p className="text-stone-600 text-sm font-mono mb-6 italic">UKR Regensburg</p>
               <p className="text-stone-700 font-geist-mono font-normal leading-relaxed text-sm" style={{
