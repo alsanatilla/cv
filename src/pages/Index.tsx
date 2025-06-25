@@ -1,4 +1,5 @@
 
+
 import { Mail, Phone, MapPin, Github, Linkedin } from "lucide-react";
 const Index = () => {
   return <div className="min-h-screen bg-white py-20 px-8">
@@ -62,6 +63,7 @@ const Index = () => {
             }}>
                 IT consultant specializing in Power Platform for IT consulting company. 
                 Developed custom business solutions using Power Apps, Power Automate, and Power BI.
+                Integrated third-party APIs and built custom connectors to enhance platform capabilities and streamline business processes.
               </p>
             </div>
             
@@ -152,3 +154,4 @@ const Index = () => {
     </div>;
 };
 export default Index;
+
