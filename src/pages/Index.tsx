@@ -87,7 +87,7 @@ const Index = () => {
                 <h3 className="font-serif-vintage font-medium text-stone-800 text-lg" style={{
                 fontOpticalSizing: 'auto'
               }}>Software Development Intern</h3>
-                <span className="text-sm font-mono text-stone-500">2022 — 2023</span>
+                <span className="text-sm font-mono text-stone-500">6 Months</span>
               </div>
               <p className="text-stone-600 text-sm font-mono mb-6 italic">UKR Regensburg</p>
               <p className="text-stone-700 font-geist-mono font-normal leading-relaxed text-sm" style={{
@@ -115,7 +115,7 @@ const Index = () => {
                 fontOpticalSizing: 'auto'
               }}>Frontend</h4>
                 <div className="text-stone-600 font-mono text-sm leading-relaxed">
-                  React / TypeScript / Tailwind CSS / Next.js
+                  React / JavaScript / HTML / CSS
                 </div>
               </div>
               
@@ -124,7 +124,25 @@ const Index = () => {
                 fontOpticalSizing: 'auto'
               }}>Backend</h4>
                 <div className="text-stone-600 font-mono text-sm leading-relaxed">
-                  Node.js / Python / PostgreSQL / MongoDB
+                  .NET / C# / API Development / File Systems
+                </div>
+              </div>
+
+              <div>
+                <h4 className="font-serif-vintage text-stone-800 mb-3 font-medium" style={{
+                fontOpticalSizing: 'auto'
+              }}>Microsoft Ecosystem</h4>
+                <div className="text-stone-600 font-mono text-sm leading-relaxed">
+                  Power Platform / SharePoint / M365 / Dynamics AX
+                </div>
+              </div>
+
+              <div>
+                <h4 className="font-serif-vintage text-stone-800 mb-3 font-medium" style={{
+                fontOpticalSizing: 'auto'
+              }}>Business Applications</h4>
+                <div className="text-stone-600 font-mono text-sm leading-relaxed">
+                  Odoo / ERP Systems / B2B Processes
                 </div>
               </div>
             </div>
