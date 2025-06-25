@@ -1,3 +1,4 @@
+
 import { Mail, Phone, MapPin, Github, Linkedin } from "lucide-react";
 const Index = () => {
   return <div className="min-h-screen bg-white py-20 px-8">
@@ -78,6 +79,22 @@ const Index = () => {
             }}>
                 Developed and maintained web applications for B2B processes including Odoo and Microsoft Dynamics AX. 
                 Led projects digitalizing internal company processes and implemented responsive designs while optimizing application performance.
+              </p>
+            </div>
+
+            <div>
+              <div className="flex justify-between items-baseline mb-2">
+                <h3 className="font-serif-vintage font-medium text-stone-800 text-lg" style={{
+                fontOpticalSizing: 'auto'
+              }}>Software Development Intern</h3>
+                <span className="text-sm font-mono text-stone-500">2022 — 2023</span>
+              </div>
+              <p className="text-stone-600 text-sm font-mono mb-6 italic">UKR Regensburg</p>
+              <p className="text-stone-700 font-geist-mono font-normal leading-relaxed text-sm" style={{
+              fontOpticalSizing: 'auto'
+            }}>
+                Developed backend/API for file uploading service using .NET framework. 
+                Implemented secure file handling and storage solutions while ensuring optimal performance and reliability.
               </p>
             </div>
           </div>
