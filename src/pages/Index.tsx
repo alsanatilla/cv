@@ -1,96 +1,100 @@
 
 import { Mail, Phone, MapPin, Github, Linkedin } from "lucide-react";
-import { useTranslation } from 'react-i18next';
-import LanguageSwitcher from '@/components/LanguageSwitcher';
-
 const Index = () => {
-  const { t, i18n } = useTranslation();
-
-  console.log('Index component rendering');
-  console.log('i18n ready:', i18n.isInitialized);
-  console.log('Current language:', i18n.language);
-  console.log('Translation test:', t('name'));
-
-  return (
-    <div className="min-h-screen bg-white py-20 px-8">
-      <LanguageSwitcher />
+  return <div className="min-h-screen bg-white py-20 px-8">
       <div className="max-w-2xl mx-auto">
         {/* Header Section */}
         <div className="mb-24">
-          <h1 className="text-6xl font-serif-vintage text-stone-900 mb-4 tracking-tight font-extrabold">
-            {t('name')}
-          </h1>
-          <p className="text-xl text-stone-700 mb-16 font-serif-vintage font-light">
-            {t('title')}
+          <h1 style={{
+          fontOpticalSizing: 'auto'
+        }} className="text-6xl font-serif-vintage text-stone-900 mb-4 tracking-tight font-extrabold">Atilla Alsan</h1>
+          <p className="text-xl text-stone-700 mb-16 font-serif-vintage font-light" style={{
+          fontOpticalSizing: 'auto'
+        }}>
+            Senior Software Developer
           </p>
           <div className="space-y-3 text-stone-600">
             <div className="flex items-center gap-4">
               <Mail size={16} />
-              <span className="font-mono text-sm">{t('contact.email')}</span>
+              <span className="font-mono text-sm">alsan.atilla[at]icloud.com</span>
             </div>
             <div className="flex items-center gap-4">
               <Phone size={16} />
-              <span className="font-mono text-sm">{t('contact.phone')}</span>
+              <span className="font-mono text-sm">+49 173 971 9062</span>
             </div>
             <div className="flex items-center gap-4">
               <MapPin size={16} />
-              <span className="font-mono text-sm">{t('contact.location')}</span>
+              <span className="font-mono text-sm">Munich, Bayern</span>
             </div>
           </div>
         </div>
 
         {/* About Section */}
         <div className="mb-20">
-          <h2 className="font-serif-vintage text-stone-900 mb-8 text-3xl font-medium">
-            {t('sections.about')}
+          <h2 style={{
+          fontOpticalSizing: 'auto'
+        }} className="font-serif-vintage text-stone-900 mb-8 text-3xl font-medium">
+            About
           </h2>
-          <p className="text-stone-700 leading-relaxed font-geist-mono text-sm font-normal">
-            {t('about_text')}
-          </p>
+          <p className="text-stone-700 leading-relaxed font-geist-mono text-sm font-normal" style={{
+          fontOpticalSizing: 'auto'
+        }}>Passionate software developer with 3+ years of experience building digital applications. Specialized in the Microsoft Ecosystem which inclues M365 (SharePoint, PowerPlatform) and modern web technologies.</p>
         </div>
 
         {/* Experience Section */}
         <div className="mb-20">
-          <h2 className="font-serif-vintage text-stone-900 mb-12 text-3xl font-medium">
-            {t('sections.experience')}
+          <h2 style={{
+          fontOpticalSizing: 'auto'
+        }} className="font-serif-vintage text-stone-900 mb-12 text-3xl font-medium">
+            Experience
           </h2>
           <div className="space-y-12">
             <div>
               <div className="flex justify-between items-baseline mb-2">
-                <h3 className="font-serif-vintage font-medium text-stone-800 text-lg">
-                  {t('experience.senior_developer.title')}
-                </h3>
-                <span className="text-sm font-mono text-stone-500">{t('experience.senior_developer.period')}</span>
+                <h3 className="font-serif-vintage font-medium text-stone-800 text-lg" style={{
+                fontOpticalSizing: 'auto'
+              }}>Senior Software Developer</h3>
+                <span className="text-sm font-mono text-stone-500">2024 — Present</span>
               </div>
-              <p className="text-stone-600 text-sm font-mono mb-6 italic">{t('experience.senior_developer.company')}</p>
-              <p className="text-stone-700 font-geist-mono font-normal leading-relaxed text-sm">
-                {t('experience.senior_developer.description')}
+              <p className="text-stone-600 text-sm font-mono mb-6 italic">Gabo mbH</p>
+              <p className="text-stone-700 font-geist-mono font-normal leading-relaxed text-sm" style={{
+              fontOpticalSizing: 'auto'
+            }}>
+                IT consultant specializing in Power Platform for IT consulting company. 
+                Developed custom business solutions using Power Apps, Power Automate, and Power BI.
+                Integrated third-party APIs and built custom connectors to enhance platform capabilities and streamline business processes.
               </p>
             </div>
             
             <div>
               <div className="flex justify-between items-baseline mb-2">
-                <h3 className="font-serif-vintage font-medium text-stone-800 text-lg">
-                  {t('experience.developer.title')}
-                </h3>
-                <span className="text-sm font-mono text-stone-500">{t('experience.developer.period')}</span>
+                <h3 className="font-serif-vintage font-medium text-stone-800 text-lg" style={{
+                fontOpticalSizing: 'auto'
+              }}>Software Developer</h3>
+                <span className="text-sm font-mono text-stone-500">2023 — 2024</span>
               </div>
-              <p className="text-stone-600 text-sm font-mono mb-6 italic">{t('experience.developer.company')}</p>
-              <p className="text-stone-700 font-geist-mono font-normal leading-relaxed text-sm">
-                {t('experience.developer.description')}
+              <p className="text-stone-600 text-sm font-mono mb-6 italic">Digital Innovations</p>
+              <p className="text-stone-700 font-geist-mono font-normal leading-relaxed text-sm" style={{
+              fontOpticalSizing: 'auto'
+            }}>
+                Developed and maintained web applications for B2B processes including Odoo and Microsoft Dynamics AX. 
+                Led projects digitalizing internal company processes and implemented responsive designs while optimizing application performance.
               </p>
             </div>
 
             <div>
               <div className="flex justify-between items-baseline mb-2">
-                <h3 className="font-serif-vintage font-medium text-stone-800 text-lg">
-                  {t('experience.intern.title')}
-                </h3>
-                <span className="text-sm font-mono text-stone-500">{t('experience.intern.period')}</span>
+                <h3 className="font-serif-vintage font-medium text-stone-800 text-lg" style={{
+                fontOpticalSizing: 'auto'
+              }}>Software Development Intern</h3>
+                <span className="text-sm font-mono text-stone-500">6 Months</span>
               </div>
-              <p className="text-stone-600 text-sm font-mono mb-6 italic">{t('experience.intern.company')}</p>
-              <p className="text-stone-700 font-geist-mono font-normal leading-relaxed text-sm">
-                {t('experience.intern.description')}
+              <p className="text-stone-600 text-sm font-mono mb-6 italic">UKR Regensburg</p>
+              <p className="text-stone-700 font-geist-mono font-normal leading-relaxed text-sm" style={{
+              fontOpticalSizing: 'auto'
+            }}>
+                Developed backend/API for file uploading service using .NET framework. 
+                Implemented secure file handling and storage solutions while ensuring optimal performance and reliability.
               </p>
             </div>
           </div>
@@ -100,41 +104,43 @@ const Index = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 mb-20">
           {/* Skills */}
           <div>
-            <h2 className="text-2xl font-serif-vintage text-stone-900 mb-8 font-medium">
-              {t('sections.skills')}
+            <h2 style={{
+            fontOpticalSizing: 'auto'
+          }} className="text-2xl font-serif-vintage text-stone-900 mb-8 font-medium">
+              Skills
             </h2>
             <div className="space-y-6">
               <div>
-                <h4 className="font-serif-vintage text-stone-800 mb-3 font-medium">
-                  {t('skills.frontend')}
-                </h4>
+                <h4 className="font-serif-vintage text-stone-800 mb-3 font-medium" style={{
+                fontOpticalSizing: 'auto'
+              }}>Frontend</h4>
                 <div className="text-stone-600 font-mono text-sm leading-relaxed">
                   React / JavaScript / HTML / CSS
                 </div>
               </div>
               
               <div>
-                <h4 className="font-serif-vintage text-stone-800 mb-3 font-medium">
-                  {t('skills.backend')}
-                </h4>
+                <h4 className="font-serif-vintage text-stone-800 mb-3 font-medium" style={{
+                fontOpticalSizing: 'auto'
+              }}>Backend</h4>
                 <div className="text-stone-600 font-mono text-sm leading-relaxed">
                   .NET / C# / API Development / File Systems
                 </div>
               </div>
 
               <div>
-                <h4 className="font-serif-vintage text-stone-800 mb-3 font-medium">
-                  {t('skills.microsoft')}
-                </h4>
+                <h4 className="font-serif-vintage text-stone-800 mb-3 font-medium" style={{
+                fontOpticalSizing: 'auto'
+              }}>Microsoft Ecosystem</h4>
                 <div className="text-stone-600 font-mono text-sm leading-relaxed">
                   Power Platform / SharePoint / M365 / Dynamics AX
                 </div>
               </div>
 
               <div>
-                <h4 className="font-serif-vintage text-stone-800 mb-3 font-medium">
-                  {t('skills.business')}
-                </h4>
+                <h4 className="font-serif-vintage text-stone-800 mb-3 font-medium" style={{
+                fontOpticalSizing: 'auto'
+              }}>Business Applications</h4>
                 <div className="text-stone-600 font-mono text-sm leading-relaxed">
                   Odoo / ERP Systems / B2B Processes
                 </div>
@@ -145,8 +151,10 @@ const Index = () => {
           {/* Links & Education */}
           <div className="space-y-12">
             <div>
-              <h2 className="text-2xl font-serif-vintage text-stone-900 mb-8 font-medium">
-                {t('sections.links')}
+              <h2 style={{
+              fontOpticalSizing: 'auto'
+            }} className="text-2xl font-serif-vintage text-stone-900 mb-8 font-medium">
+                Links
               </h2>
               <div className="space-y-3">
                 <div className="flex items-center gap-4">
@@ -161,21 +169,21 @@ const Index = () => {
             </div>
 
             <div>
-              <h2 className="text-2xl font-serif-vintage text-stone-900 mb-6 font-medium">
-                {t('sections.education')}
+              <h2 style={{
+              fontOpticalSizing: 'auto'
+            }} className="text-2xl font-serif-vintage text-stone-900 mb-6 font-medium">
+                Education
               </h2>
               <div>
-                <h3 className="font-serif-vintage font-medium text-stone-800">
-                  {t('education.degree')}
-                </h3>
-                <p className="text-stone-600 text-sm font-mono italic">{t('education.school')}</p>
+                <h3 className="font-serif-vintage font-medium text-stone-800" style={{
+                fontOpticalSizing: 'auto'
+              }}>BS Health Informatics</h3>
+                <p className="text-stone-600 text-sm font-mono italic">THD Deggendorf, 2020 - 2023</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
